@@ -1,6 +1,15 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-dark: #1A233A; /* Cor do menu lateral */
+  --primary-light: #F0F4F8; /* Fundo do conteúdo principal */
+  --secondary-light: #E0E7FF; /* Fundo das tarefas */
+  --text-dark: #1A233A; /* Texto principal */
+  --text-light: #A0AEC0; /* Texto secundário */
+  --accent-green: #34D399; /* Status "To Start" */
+  --accent-yellow: #FBBF24; /* Status "In Progress" */
+  --accent-green-dark: #10B981; /* Status "Completed" */
+  --button-primary: #1A233A; /* Botão "New task" */
+  --button-secondary: #3B82F6; /* Botão "Update Task" */
+  --button-secondary-light: #BFDBFE; /* Botão "Cancel Task" */
 }
 
 @media (prefers-color-scheme: dark) {
